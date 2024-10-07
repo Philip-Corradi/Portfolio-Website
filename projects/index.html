@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/general.css">
+        <link rel="stylesheet" href="/styles/desktop-navigation.css">
+        <link rel="stylesheet" href="/styles/hamburger-navigation.css">
+        <link rel="stylesheet" href="/styles/mediaqueries.css">
+
+        <title>Philip Corradi</title>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Philip Corradi</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tutoring/">Tutoring</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Philip Corradi</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleHamburger()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="hamburger-nav-links">
+                    <li><a href="/" onclick="toggleHamburger()">Home</a></li>
+                    <li><a href="/tutoring/" onclick="toggleHamburger()">Tutoring</a></li>
+                    <li><a href="/projects/" onclick="toggleHamburger()">Projects</a></li>
+                    <li><a href="/contact/" onclick="toggleHamburger()">Contact</a></li>
+
+                </div>
+            </div>
+        </nav>
+
+        <section class="section-title">
+            <h1>Projects</h1>
+
+        <script src="/hamburger-menu.js"></script>
+    </body>
+</html>

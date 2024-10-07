@@ -1,0 +1,54 @@
+nav, .nav-links{
+    display: flex;
+    
+    z-index: 100;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    right:0;
+    left: 0;
+    top: 0;
+    position:fixed
+}
+
+a, .btn {
+    transition: all 0.3s ease;
+    background-color: none;
+}
+
+
+
+.nav-links{
+    gap:2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(190, 93, 63);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration-color: white ;
+}
+
+a:hover{
+    text-decoration-line: underline; 
+    text-decoration-color: purple; 
+    text-underline-offset: 1rem;
+}
+
+
+
