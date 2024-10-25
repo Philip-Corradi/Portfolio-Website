@@ -10,16 +10,8 @@
     .contact-inputs {
         width: 80vw;
     }
-}
-
-
-@media(max-width: 1000px) {
 
     .container-row {
         flex-direction: column;
     }
-
-
-    
 }
-

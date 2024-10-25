@@ -25,7 +25,7 @@ html {
 
 
 body {
-    padding-bottom: 1000px ;
+    padding-bottom: 400px ;
     padding-top: 7vh;
     background-color: rgb(36, 0, 36);
 }
@@ -53,7 +53,6 @@ h1 {
     text-align: center;
     cursor: default;
 }
-
 
 
 .general-section{
